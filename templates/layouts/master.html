@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/large.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/small.css" media="(max-width: 767px)">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,900,300italic,400italic" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    {% include "partials/header.html" %}
+    <div class="container-fluid">
+        {% block contents %}{% endblock %}
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

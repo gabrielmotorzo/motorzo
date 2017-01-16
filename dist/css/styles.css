@@ -1,0 +1,106 @@
+*:focus {
+  outline: none !important; }
+
+body {
+  padding: 0;
+  font-family: Open Sans,open-sans,sans-serif; }
+
+.btn-success {
+  border-radius: 40px; }
+
+.row-header {
+  background-color: #111; }
+
+.col-xs-12 > h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff; }
+
+.normal {
+  font-size: 18px; }
+
+.small {
+  font-size: 15px; }
+
+.large {
+  font-size: 36px; }
+
+.navbar-inverse {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  z-index: 9999; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.affix {
+  top: 0;
+  width: 100%;
+  background-color: #111;
+  transition: all .5s ease-in-out; }
+
+.affix-top {
+  position: static;
+  top: -35px;
+  transition: all .5s ease-in-out; }
+
+/*.jumbotron {
+  background: #ff9800 url(../images/banner-1.jpg) no-repeat fixed center center;
+  background-size: cover;
+  height: 650px;
+  border-radius: 0;
+}*/
+/*Steps*/
+.step-heading {
+  color: #323a45;
+  text-transform: uppercase; }
+
+.step-number {
+  border: 1px solid #c9c9c9;
+  border-radius: 50%;
+  padding-top: 5px;
+  width: 38px;
+  text-align: center;
+  height: 38px;
+  margin-top: 15px;
+  margin-left: 5px;
+  padding-top: 8px; }
+
+/*counters*/
+.bars {
+  padding: 20px; }
+
+.bars > span {
+  font-size: 36px;
+  color: #449D44; }
+
+.bars > strong {
+  font-weight: 700;
+  font-size: 50px;
+  display: block;
+  line-height: 50px;
+  color: #fff; }
+
+.bars > label {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  color: #fff; }
+
+.bars > p {
+  line-height: 20px;
+  font-size: 18px;
+  color: #449D44; }
+
+.service-content > h3 {
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #323a45; }

@@ -1,0 +1,39 @@
+{
+  "name": "motorzo",
+  "version": "1.0.0",
+  "description": "motorzo website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmotorzo/motorzo.git"
+  },
+  "keywords": [
+    "Smart",
+    "Car",
+    "Service"
+  ],
+  "author": "Gabriel <gabriel@motorzo.in>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielmotorzo/motorzo/issues"
+  },
+  "homepage": "https://github.com/gabrielmotorzo/motorzo#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-data": "^1.2.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.0",
+    "install": "^0.8.4",
+    "jquery": "^3.1.1",
+    "npm": "^4.1.1"
+  }
+}
